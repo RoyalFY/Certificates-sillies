@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-image: url("imgs/snowscreen\ but\ good.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Handjet', sans-serif;;
+}
+
+.pagewrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    width: 75vw;
+    padding: 1em;
+}
+
+.right {
+    width: 27.6vw;
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.number1 {
+    color: red;
+}
+
+.number2 {
+    color: blue
+}
+
+.number3 {
+    color: blueviolet;
+}
+
+.number4 {
+    color: orange;
+}
+
+input {
+    font-size: 20vm;
+}
