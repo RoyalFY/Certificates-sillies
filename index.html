@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,13 @@
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
 </head>
+
 <body>
-    <div class="pagewrapper">
+    <section class="pagewrapper">
 
         <section class="left">
-
-            <div class="certificate " id="certificate">
-                <span id="nameOutput" class="visible">Test Name</span>
-                <span id="info">Test Info</span>
+            <div class="number1" id="certificate">    
+                    <span id="nameOutput" class="visible">INSERT NAME.</span>
             </div>
 
         </section>
@@ -22,20 +22,22 @@
         <section class="right">
 
             <form action="" id="myForm">
-    
-                <input type="text" name="name" id="name" placeholder="Name">
-        
-                <select name="type" id="type">
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                    <option value="D">D</option>
-                </select>
-                <input type="submit" value="Generate">
-        
+                <section class="nameoptions">
+                    <input type="text" name="name" id="name" placeholder="Name" class="name">
+
+                    <select name="type" id="type">
+                        <option value="A">Existing</option>
+                        <option value="B">Procrastination</option>
+                        <option value="C">Gaming</option>
+                        <option value="D">Bad work</option>
+                    </select>
+                </section>
+                <input type="submit" value="Generate" class="button">
+
             </form>
         </section>
 
-    </div>    
+    </section>
 </body>
+
 </html>
